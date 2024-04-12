@@ -1,0 +1,26 @@
+body {
+  background-color: aquamarine;
+  height: 100wh;
+}
+
+.wrapping {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 170px;
+}
+
+p {
+  font-size: 40px;
+  font-weight: bold;
+  height: 100%;
+}
+
+.introduction {
+  margin-right: 4px;
+}
+#excuse {
+  margin-left: 17px;
+  color: blueviolet;
+}
