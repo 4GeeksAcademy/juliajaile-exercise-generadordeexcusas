@@ -20,5 +20,4 @@ function createRandomExcuse() {
 }
 
 let excuseElement = document.getElementById("excuse");
-let randomExcuse = createRandomExcuse();
-excuseElement.textContent = randomExcuse;
+excuseElement.innerHTML = createRandomExcuse();
