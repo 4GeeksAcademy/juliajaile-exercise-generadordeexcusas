@@ -1,6 +1,7 @@
 body {
-  background-color: aquamarine;
+  background-color: #90e4f9;
   height: 100wh;
+  overflow: hidden;
 }
 
 .wrapping {
@@ -20,7 +21,15 @@ p {
 .introduction {
   margin-right: 4px;
 }
+
 #excuse {
-  margin-left: 17px;
+  margin-left: auto;
+  margin-right: auto;
   color: blueviolet;
+  font-size: 35px;
+}
+
+.btn {
+  margin-top: 25px;
+  color: black;
 }
