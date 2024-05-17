@@ -15,8 +15,7 @@ function createRandomExcuse() {
   let randomWhat = what[Math.floor(Math.random() * what.length)];
   let randomWhen = when[Math.floor(Math.random() * when.length)];
 
-  let sentence = `${randomWho} ${randomAction} ${randomWhat} ${randomWhen}`;
-  return sentence;
+  return `${randomWho} ${randomAction} ${randomWhat} ${randomWhen}`;
 }
 
 let excuseElement = document.getElementById("excuse");
